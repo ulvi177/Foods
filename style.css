@@ -47,8 +47,9 @@ header .menu .btnblue {
     font-size: 30px;
   }
 }
-@media (max-width: 478px) {
+@media (max-width: 479px) {
   header .menu {
+    margin-left: 60px;
     width: 100%;
   }
   header .menu .btnblue {
@@ -116,8 +117,9 @@ header .menu .btnblue {
     margin-left: 40px;
   }
 }
-@media (max-width: 478px) {
+@media (max-width: 479px) {
   #beautiful .box {
+    margin-left: 150px;
     width: 100%;
   }
   #beautiful .box .textbox h1 {
@@ -129,9 +131,13 @@ header .menu .btnblue {
     margin-left: 40px;
     width: 300px;
   }
+  #beautiful .imgbox {
+    margin-left: 150px;
+  }
 }
 
 #thehome {
+  padding: 80px 0;
   background-color: #f1f8f9;
 }
 #thehome .textbox h1 {
@@ -156,6 +162,21 @@ header .menu .btnblue {
 #thehome .imgbox {
   width: 520px;
   background-color: #6c2f30;
+}
+@media (max-width: 991px) {
+  #thehome .textbox {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    margin-left: 150px;
+  }
+  #thehome .textbox h5 {
+    margin-left: 60px;
+  }
+  #thehome .imgbox {
+    margin-left: 100px;
+  }
 }
 
 #works h1 {
