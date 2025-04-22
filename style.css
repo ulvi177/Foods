@@ -120,7 +120,6 @@ header .menu .btnblue {
 @media (max-width: 479px) {
   #beautiful .box {
     margin-left: 150px;
-    width: 100%;
   }
   #beautiful .box .textbox h1 {
     font-size: 40px;
@@ -133,6 +132,7 @@ header .menu .btnblue {
   }
   #beautiful .imgbox {
     margin-left: 150px;
+    width: auto;
   }
 }
 
@@ -175,10 +175,29 @@ header .menu .btnblue {
     margin-left: 60px;
   }
   #thehome .imgbox {
-    margin-left: 100px;
+    width: auto;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 479px) {
+  #thehome .textbox h5 {
+    margin: 35px 0 35px 40px;
+  }
+  #thehome .textbox h1 {
+    padding-right: 60px;
+  }
+  #thehome .textbox .btn {
+    margin-left: 40px;
+  }
+  #thehome .imgbox {
+    width: auto;
+    margin: 30px 0 30px 100px;
   }
 }
 
+#works {
+  padding: 50px 0;
+}
 #works h1 {
   font-weight: 700;
   font-size: 60px;
@@ -200,6 +219,18 @@ header .menu .btnblue {
   font-size: 20px;
   color: #676f8b;
   line-height: 1.3;
+}
+@media (max-width: 991px) {
+  #works h1 {
+    font-size: 40px;
+  }
+  #works .imgbox {
+    margin: auto;
+  }
+  #works .textbox h4 {
+    margin: auto;
+    width: 400px;
+  }
 }
 
 #browse .textbox {
@@ -341,6 +372,4 @@ header .menu .btnblue {
 }
 #support .bgc {
   background-color: #35b6c1;
-  align-items: center;
-  position: fixed;
 }/*# sourceMappingURL=style.css.map */
