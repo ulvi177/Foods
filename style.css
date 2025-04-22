@@ -233,6 +233,9 @@ header .menu .btnblue {
   }
 }
 
+#browse {
+  background-color: rgb(251, 251, 251);
+}
 #browse .textbox {
   width: 500px;
   text-align: center;
@@ -265,6 +268,7 @@ header .menu .btnblue {
 }
 #browse .box {
   padding: 30px;
+  background-color: #ffffff;
 }
 #browse .box .imgbox {
   width: 150px;
@@ -306,7 +310,21 @@ header .menu .btnblue {
   padding: 17px 53px;
   margin-top: 50px;
 }
+@media (max-width: 992px) {
+  #browse .textbox {
+    width: 500px;
+  }
+  #browse .textbox h1 {
+    font-size: 40px;
+  }
+  #browse .textbox {
+    margin-right: 27px;
+  }
+}
 
+#order {
+  padding: 50px 0;
+}
 #order .imgbox {
   width: 600px;
 }
@@ -328,8 +346,25 @@ header .menu .btnblue {
   padding: 13px 34px;
   border-radius: 5px;
 }
+@media (max-width: 992px) {
+  #order .imgbox {
+    margin: auto;
+  }
+  #order .textbox {
+    text-align: center;
+  }
+  #order .textbox h1 {
+    font-size: 50px;
+    width: 350px;
+    margin: auto;
+  }
+  #order .textbox h5 {
+    margin-left: 130px;
+  }
+}
 
 #callour {
+  padding: 50px 0;
   background-color: #f1f8f9;
 }
 #callour .textbox h1 {
@@ -352,7 +387,27 @@ header .menu .btnblue {
 #callour .imgbox {
   width: 520px;
 }
+@media (max-width: 992px) {
+  #callour .textbox {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  #callour .textbox h1 {
+    font-size: 50px;
+    width: 350px;
+    margin: auto;
+  }
+  #callour .textbox h5 {
+    margin-left: 130px;
+  }
+  #callour .imgbox {
+    width: auto;
+  }
+}
 
+#support {
+  padding: 50px 0;
+}
 #support .textbox h1 {
   font-size: 60px;
   font-weight: 700;
@@ -372,4 +427,9 @@ header .menu .btnblue {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media (max-width: 992px) {
+  #support .imgbox {
+    padding-bottom: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
