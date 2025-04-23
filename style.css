@@ -32,9 +32,6 @@ header .menu .btnblue {
   display: none;
 }
 @media (max-width: 992px) {
-  header .menu {
-    width: 100%;
-  }
   header .menu nav {
     display: none;
   }
@@ -49,7 +46,7 @@ header .menu .btnblue {
 }
 @media (max-width: 479px) {
   header .menu {
-    margin-left: 60px;
+    margin-left: 120px;
     width: 100%;
   }
   header .menu .btnblue {
@@ -68,6 +65,7 @@ header .menu .btnblue {
 
 #beautiful {
   padding: 100px 0;
+  background-color: rgb(255, 255, 255);
 }
 #beautiful .box h1 {
   font-weight: 700;
@@ -97,7 +95,7 @@ header .menu .btnblue {
 #beautiful .box h4 {
   font-size: 20px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   #beautiful .box {
     margin: auto;
   }
@@ -121,15 +119,7 @@ header .menu .btnblue {
 }
 @media (max-width: 479px) {
   #beautiful .box {
-    margin-left: 150px;
-  }
-  #beautiful .box .textbox h1 {
-    font-size: 40px;
-    margin-left: 50px;
-  }
-  #beautiful .box .textbox h5 {
-    margin-left: 130px;
-    width: 350px;
+    margin-left: 220px;
   }
   #beautiful .imgbox {
     margin-left: 150px;
@@ -138,7 +128,7 @@ header .menu .btnblue {
 }
 
 #thehome {
-  padding: 80px 0;
+  padding: 80px 0 0 50px;
   background-color: #f1f8f9;
 }
 #thehome .textbox h1 {
@@ -191,8 +181,8 @@ header .menu .btnblue {
     margin-left: 40px;
   }
   #thehome .imgbox {
-    width: auto;
-    margin: 30px 0 30px 100px;
+    width: 520px;
+    margin: 30px 0 30px 150px;
   }
 }
 
@@ -231,6 +221,12 @@ header .menu .btnblue {
   #works .textbox h4 {
     margin: auto;
     width: 400px;
+  }
+}
+@media (max-width: 479px) {
+  #works .textbox h1 {
+    display: flex;
+    justify-content: center;
   }
 }
 
