@@ -98,23 +98,25 @@ header .menu .btnblue {
   font-size: 20px;
 }
 @media (max-width: 992px) {
-  #beautiful .box .textbox {
-    margin-left: 50px;
+  #beautiful .box {
+    margin: auto;
   }
   #beautiful .box .textbox h1 {
     font-size: 60px;
+    margin: auto;
+    width: 500px;
+  }
+  #beautiful .box .textbox h5 {
+    margin: 30px 0 30px;
   }
   #beautiful .box .minibox {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    margin-left: 40px;
   }
   #beautiful .box h4 {
-    justify-content: center;
     display: flex;
-    padding-bottom: 60px;
-    margin-left: 40px;
+    justify-content: center;
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 479px) {
@@ -123,12 +125,11 @@ header .menu .btnblue {
   }
   #beautiful .box .textbox h1 {
     font-size: 40px;
-    margin-left: 40px;
+    margin-left: 50px;
   }
   #beautiful .box .textbox h5 {
-    font-size: 15px;
-    margin-left: 40px;
-    width: 300px;
+    margin-left: 130px;
+    width: 350px;
   }
   #beautiful .imgbox {
     margin-left: 150px;
@@ -430,6 +431,15 @@ header .menu .btnblue {
 }
 @media (max-width: 992px) {
   #support .imgbox {
-    padding-bottom: 30px;
+    width: 715px;
+    height: 300px;
+    margin: 0 0 21px -10px;
+  }
+  #support .textbox {
+    padding: 50px 0 50px 0;
+    width: 500px;
+  }
+  #support .textbox h1 {
+    font-size: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
