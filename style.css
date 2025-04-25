@@ -171,6 +171,9 @@ header .menu .btnblue {
   }
 }
 @media (max-width: 479px) {
+  #thehome .textbox {
+    padding-right: 50px;
+  }
   #thehome .textbox h5 {
     margin: 35px 0 35px 40px;
   }
@@ -191,7 +194,7 @@ header .menu .btnblue {
 }
 #works h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 70px;
   color: #36b3bd;
   margin-bottom: 60px;
 }
@@ -213,7 +216,7 @@ header .menu .btnblue {
 }
 @media (max-width: 991px) {
   #works h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
   #works .imgbox {
     margin: auto;
@@ -224,9 +227,16 @@ header .menu .btnblue {
   }
 }
 @media (max-width: 479px) {
-  #works .textbox h1 {
-    display: flex;
-    justify-content: center;
+  #works h1 {
+    font-size: 60px;
+    width: 400px;
+    margin-left: 120px;
+  }
+  #works .imgbox {
+    margin-left: 220px;
+  }
+  #works .textbox {
+    margin-left: 150px;
   }
 }
 
@@ -318,7 +328,6 @@ header .menu .btnblue {
     margin-right: 27px;
   }
 }
-
 #order {
   padding: 50px 0;
 }
