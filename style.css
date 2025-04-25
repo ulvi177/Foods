@@ -230,13 +230,13 @@ header .menu .btnblue {
   #works h1 {
     font-size: 60px;
     width: 400px;
-    margin-left: 120px;
+    margin-left: 150px;
   }
   #works .imgbox {
-    margin-left: 220px;
+    margin-left: 240px;
   }
   #works .textbox {
-    margin-left: 150px;
+    margin-left: 170px;
   }
 }
 
@@ -328,6 +328,12 @@ header .menu .btnblue {
     margin-right: 27px;
   }
 }
+@media (max-width: 777px) {
+  #browse .btn {
+    padding: 15px 100px;
+  }
+}
+
 #order {
   padding: 50px 0;
 }
