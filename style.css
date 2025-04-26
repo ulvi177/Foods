@@ -243,33 +243,33 @@ header .menu .btnblue {
 #browse {
   background-color: rgb(251, 251, 251);
 }
-#browse .textbox {
+#browse .bigbox .textbox {
   width: 500px;
   text-align: center;
 }
-#browse .textbox h1 {
+#browse .bigbox .textbox h1 {
   font-weight: 700;
   font-size: 60px;
   color: #3cc1d8;
 }
-#browse .textbox h4 {
+#browse .bigbox .textbox h4 {
   font-size: 20px;
   color: #6c7480;
   margin: 20px 0;
   line-height: 1.2;
 }
-#browse .textbox h4 span {
+#browse .bigbox .textbox span {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browse .btn {
+#browse .minibox .btn {
   font-size: 18px;
   border: 0.5px solid #bdbdbd;
   padding: 15px 46px;
   margin: 0 20px;
   border-radius: 5px;
 }
-#browse .bgc {
+#browse .minibox .bgc {
   background-color: #3cc1d8;
   color: white;
 }
@@ -324,13 +324,30 @@ header .menu .btnblue {
   #browse .textbox h1 {
     font-size: 40px;
   }
-  #browse .textbox {
+  #browse .box .textbox {
     margin-right: 27px;
   }
 }
-@media (max-width: 777px) {
-  #browse .btn {
-    padding: 15px 100px;
+@media (max-width: 479px) {
+  #browse .bigbox {
+    display: flex;
+    justify-content: center;
+  }
+  #browse .bigbox .textbox h1 {
+    font-size: 50px;
+  }
+  #browse .bigbox .textbox h4 {
+    margin-left: 150px;
+    line-height: 1.4;
+  }
+  #browse .minibox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #browse .minibox .btn {
+    padding: 15px 100px 15px 100px;
+    margin: 0 20px;
   }
 }
 

@@ -1,29 +1,31 @@
 #browse
     background-color: rgb(251, 251, 251)
-    .textbox
-        width: 500px
-        text-align: center
-        h1
-            font-weight: 700
-            font-size: 60px
-            color: #3cc1d8
-        h4
-            font-size: 20px
-            color: #6c7480
-            margin: 20px 0
-            line-height: 1.2
+    .bigbox
+        .textbox
+            width: 500px
+            text-align: center
+            h1
+                font-weight: 700
+                font-size: 60px
+                color: #3cc1d8
+            h4
+                font-size: 20px
+                color: #6c7480
+                margin: 20px 0
+                line-height: 1.2
             span
                 color: #3cc1d8
                 text-decoration-line: underline
-    .btn
-        font-size: 18px
-        border: 0.5px solid #bdbdbd
-        padding: 15px 46px
-        margin: 0 20px
-        border-radius: 5px
-    .bgc
-        background-color: #3cc1d8
-        color: #ffff
+    .minibox
+        .btn
+            font-size: 18px
+            border: 0.5px solid #bdbdbd
+            padding: 15px 46px
+            margin: 0 20px
+            border-radius: 5px
+        .bgc
+            background-color: #3cc1d8
+            color: #ffff
     .box
         padding: 30px
         background-color: #ffffff
@@ -64,14 +66,24 @@
             width: 500px
             h1
                 font-size: 40px
-        .textbox
-            margin-right: 27px
-    @media (max-width: 777px)
-        .btn
-            padding: 15px 100px
-        .third
-            
-
-        
-
+        .box
+            .textbox
+                margin-right: 27px
+    @media (max-width: 479px)
+        .bigbox
+            display: flex
+            justify-content: center
+            .textbox
+                h1 
+                    font-size: 50px
+                h4
+                    margin-left: 150px
+                    line-height: 1.4
+        .minibox
+            display: flex
+            flex-direction: column
+            align-items: center
+            .btn
+                padding: 15px 100px 15px 100px
+                margin: 0 20px
 
